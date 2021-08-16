@@ -67,6 +67,8 @@ def create_table(start_date, rate_in_months, period_in_years, principal, additio
         df = df.loc[0:last_payment[0]]
         if show == True:
             print(f"Total Interest Paid: ${df['Interest'].sum():,.2f}")
+            df = df.set_index('Period')
+            pd.options.display.float_format = '{:,}'.format
             display(df.round(2))
         else: 
             return df
