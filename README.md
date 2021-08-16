@@ -3,4 +3,4 @@ An interactive Jupyter Notebook that allows you to generate an amortization tabl
 
 You can either download the jupyter notebook saved or you can also access using [this link to a binder](https://mybinder.org/v2/gh/YungTaxReturn13/Amortization-Calc/1306507ffa22125074df257009bcaaf669aa8869)
 
-[(https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YungTaxReturn13/Amortization-Calc/HEAD)
+and then running the cells in the Amortization Application.ipynb file
